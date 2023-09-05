@@ -1,0 +1,63 @@
+<link rel="stylesheet" href="style.css">
+   <div class="frame_show">
+</div>
+<div class="top">
+          <h2>Address Book</h2>
+   <div class="container">
+      
+   </div> 
+</div>
+
+
+<div class="container add">
+   <div class="quickadd"> <button type="button" id="QuickAdd"><div id="content">Add new Contact</div></button></div>
+   
+   
+   <!-- FORM -->
+  
+  <div class="quickaddForm" id="fform">
+  <form method="POST" id="add_contact">
+    <h3> New contact</h3>
+    <br/>	
+            <label for="fullname" id="unq" >Name</label><br>
+            <input type="text" id="fullname" class="formFields" placeholder="Your Full name"><br>
+        
+		      <label for="address" id="unq2">Address</label><br>
+            <textarea id="address" name="subject" ></textarea><br>
+
+            <label for="email" id="unq4">Email</label><br>
+            <input type="text" id="email" class="formFields" placeholder="xyz@gmail.com"><br>
+
+            <label for="phone" id="unq1">Phone</label><br>
+            <input type="text" id="phone" class="formFields" ><br>
+
+            <label for="city" id="unq3">Friend</label><br>
+            <input type="text" id="friend" class="formFields" placeholder=""><br>
+            
+            <label for="city" id="unq3">Family</label><br>
+            <input type="text" id="family" class="formFields" placeholder=""><br>
+
+            <label for="city" id="unq3">Aquaitances</label><br>
+            <input type="text" id="acquaitances" class="formFields" placeholder=""><br>
+            
+            <label id="cp"> </label>
+            
+			<br><br>
+			
+			<button type="submit"  id="Add" class="btn"> Add </button>
+			<button type="submit"  id="Cancel" class="btn"> Cancel </button>
+
+  
+  </form>
+  </div>
+</div>
+<!-- Display -->
+   <div class="container">
+    <div class="addbook">
+       </div>
+</div>
+
+<div class="view_modal">
+   
+</div>
+<script src="script.js"></script>
